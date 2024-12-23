@@ -1,0 +1,11 @@
+○ mysql.service - MySQL Community Server
+     Loaded: loaded (]8;;file://prova4-ubuntu-g-2vcpu-8gb-nyc1-04/usr/lib/systemd/system/mysql.service/usr/lib/systemd/system/mysql.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: inactive (dead) since Sun 2024-12-22 17:00:38 UTC; 1min 13s ago
+   Duration: 3d 20h 50min 27.255s
+ Invocation: 1e512db364af48188502dc628900c309
+    Process: 10780 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+    Process: 10789 ExecStart=/usr/sbin/mysqld (code=exited, status=0/SUCCESS)
+   Main PID: 10789 (code=exited, status=0/SUCCESS)
+     Status: "[0;1;36mServer shutdown complete[0m"
+   Mem peak: 390.8M
+        CPU: 27min 45.017s

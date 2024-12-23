@@ -1,0 +1,12 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+     Loaded: loaded (]8;;file://prova4-ubuntu-g-2vcpu-8gb-nyc1-04/usr/lib/systemd/system/mysql.service/usr/lib/systemd/system/mysql.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Sun 2024-12-22 17:03:07 UTC; 5s ago
+ Invocation: 7d2b7cd5d6ff40e6bc6e87f9ab668973
+    Process: 66595 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 66604 (mysqld)
+     Status: "[0;1;36mServer is operational[0m"
+      Tasks: 38 (limit: 9486)
+     Memory: 364.5M (peak: 378.3M)
+        CPU: 1.115s
+     CGroup: /system.slice/mysql.service
+             └─[0;38;5;245m66604 /usr/sbin/mysqld[0m
